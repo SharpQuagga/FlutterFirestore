@@ -20,6 +20,10 @@ dependencies:
   cloud_firestore:
   firebase_storage:
   image_picker:
+  firebase_ml_vision: ^0.6.0+2
+  path_provider:
+  barcode_flutter:
+  qr_flutter:
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -46,6 +50,13 @@ flutter:
   assets:
      - assets/fush.jpg
      - assets/back.jpg
+     - assets/images/profile.jpg
+     - assets/images/dashboard.jpg
+     - assets/images/payment.jpg
+     - assets/images/login.jpg
+     - assets/images/blank.jpg
+     - assets/images/verification.jpg
+     - assets/images/timeline.jpeg
 
   #  - images/a_dot_burr.jpeg
   #  - images/a_dot_ham.jpeg
